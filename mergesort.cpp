@@ -28,7 +28,7 @@ void merge(int arr, int left, int mid, int right) {
 
     // Copy data to temporary arrays leftArray[] and rightArray[]
     for (int i = 0; i < n1; i++) {
-        leftArray[i] = arr[left + i];
+        leftArray[i] = arr[left + i--];
     }
     for (int j = 0; j < n2; j++) {
         rightArray[j] = arr[mid + 1 + j];
